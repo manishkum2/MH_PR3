@@ -1,0 +1,15 @@
+============================================================
+                          INVOICE                           
+============================================================
+Bill ID         : BIL-100011
+Patient ID      : PAT-100005
+Patient Name    : Kyle Jones
+Admission Date in Hospital    : 2023-01-06
+Gender          : Other
+Billing Date          : 2025-07-01
+Appointment Date          : 2025-05-24
+Daignosed by    : Fever
+Amount (Rs.)      : 938.69
+============================================================
+                 Thank you for your visit!                  
+============================================================

@@ -1,0 +1,15 @@
+============================================================
+                          INVOICE                           
+============================================================
+Bill ID         : BIL-100012
+Patient ID      : PAT-100003
+Patient Name    : George Cook
+Admission Date in Hospital    : 2023-01-04
+Gender          : Other
+Billing Date          : 2025-07-01
+Appointment Date          : 2025-05-24
+Daignosed by    : Tuberculosis
+Amount (Rs.)      : 381.84
+============================================================
+                 Thank you for your visit!                  
+============================================================

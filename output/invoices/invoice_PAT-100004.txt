@@ -1,0 +1,15 @@
+============================================================
+                          INVOICE                           
+============================================================
+Bill ID         : BIL-100001
+Patient ID      : PAT-100004
+Patient Name    : Aaron Graham
+Admission Date in Hospital    : 2023-01-05
+Gender          : Male
+Billing Date          : 2025-01-01
+Appointment Date          : 2025-05-23
+Daignosed by    : Rocky Mountain Spotted Fever
+Amount (Rs.)      : 410.34
+============================================================
+                 Thank you for your visit!                  
+============================================================

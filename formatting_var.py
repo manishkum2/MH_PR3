@@ -1,0 +1,2 @@
+single_dash_length=50
+double_dash_length=60

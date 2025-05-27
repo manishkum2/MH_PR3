@@ -1,0 +1,15 @@
+============================================================
+                          INVOICE                           
+============================================================
+Bill ID         : BIL-100002
+Patient ID      : PAT-100023
+Patient Name    : Wendy Maynard
+Admission Date in Hospital    : 2023-01-24
+Gender          : Other
+Billing Date          : 2025-05-24
+Appointment Date          : 2025-05-24
+Daignosed by    : LUNG disease
+Amount (Rs.)      : 492.69
+============================================================
+                 Thank you for your visit!                  
+============================================================

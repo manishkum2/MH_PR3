@@ -1,0 +1,15 @@
+============================================================
+                          INVOICE                           
+============================================================
+Bill ID         : BIL-100014
+Patient ID      : PAT-100025
+Patient Name    : William Wallace
+Admission Date in Hospital    : 2023-01-26
+Gender          : Female
+Billing Date          : 2025-05-26
+Appointment Date          : 2025-05-26
+Daignosed by    : typhoid
+Amount (Rs.)      : 229.17
+============================================================
+                 Thank you for your visit!                  
+============================================================

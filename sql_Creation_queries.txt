@@ -1,0 +1,64 @@
+CREATE DATABASE Hospital;
+USE Hospital;
+
+CREATE TABLE Patients (
+    patient_id VARCHAR(10) PRIMARY KEY,
+    name VARCHAR(50),
+    age INT,
+    gender VARCHAR(10),
+    admission_date DATE,
+    contact_no VARCHAR(10)
+);
+
+CREATE TABLE Doctors (
+    doctor_id VARCHAR(10) PRIMARY KEY,
+    name VARCHAR(50),
+    specialization VARCHAR(50),
+    contact_no VARCHAR(10)
+);
+
+
+
+CREATE TABLE Services (
+    service_id VARCHAR(10) PRIMARY KEY,
+    service_name VARCHAR(50),	
+    cost DECIMAL(10, 2)
+);
+
+
+
+CREATE TABLE Appointments (
+    appt_id VARCHAR(10) PRIMARY KEY,
+    patient_id VARCHAR(10),
+    doctor_id VARCHAR(10),
+    date DATE,
+    diagnosis VARCHAR(105),
+    FOREIGN KEY (patient_id) REFERENCES Patients(patient_id),
+    FOREIGN KEY (doctor_id) REFERENCES Doctors(doctor_id)
+);
+
+CREATE TABLE billing (
+    bill_id VARCHAR(10) PRIMARY KEY,
+    patient_id VARCHAR(10),
+    total_amount DECIMAL(10, 2),	
+    billing_date DATE,
+    FOREIGN KEY (patient_id) REFERENCES Patients(patient_id)
+);
+
+
+
+
+CREATE TABLE patient_services (
+	patient_id VARCHAR(15),
+    service_id VARCHAR(15),
+    FOREIGN KEY (patient_id) REFERENCES patients(patient_id),
+    FOREIGN KEY (service_id) REFERENCES services(service_id)
+);
+
+
+select * from appointments;
+select * from patients;
+select * from doctors;
+select * from billing;
+select * from services;
+select * from patient_services;

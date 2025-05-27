@@ -1,0 +1,168 @@
+			=========Hospital Patient Record & Billing System (CLI APP)=========
+
+Welcome to the Hospital Patient Record & Billing System! This is a simple, menu-driven command-line application built with Core Python and MySQL/MS SQL Server.
+It helps hospitals manage patients, doctors, services, appointments, and billing — with features like automated bill generation, patient tracking, and service recording.
+
+## Starting the Application:
+        -> open the terminal and run
+            >  python filepath
+       
+            You will see this menu
+    ============================================================
+         	     HOSPITAL MANAGEMENT SYSTEM
+	============================================================
+        1.  Patients
+        2.  Doctors
+        3.  Services
+        4.  Appointments
+        5.  Billing
+        6.  Patient Billing Tracking
+        7.  Reporting Menu
+        8.  Exporting Menu
+        0.  Exit
+	============================================================
+
+    use the numbers to navigate through this system
+ 
+    1.Manage Patients:
+        You can access this via 1 option
+      	Patient Menu Options:
+    --------------------------------------------------
+             	    PATIENT MENU
+	--------------------------------------------------
+	 1. Add Patient
+ 	 2. View Patient
+ 	 3. Update Patient
+ 	 4. Delete Patient
+	 5. Days Admitted
+	 6. Days Between Appointments
+	 7. Search Patient by Name
+	 0. Back to Main Menu
+     --------------------------------------------------
+ 
+
+
+    2.Manage Dcotors:
+        You can access this via 2 option
+      	Dcotors Menu Options:
+    --------------------------------------------------
+                    DOCTOR MENU
+    --------------------------------------------------
+    1. Add Doctor
+    2. View Doctor
+    3. Update Doctor
+    4. Delete Doctor
+    5. Search Doctor by Name
+    0. Back to Main Menu
+    --------------------------------------------------
+    --------------------------------------------------
+ 
+
+
+    3.Manage Services :
+        You can access this via 3 option
+      	Services Menu Options:
+    --------------------------------------------------
+                 SERVICE MENU
+    --------------------------------------------------
+    1. Add Service
+    2. View Service
+    3. Update Service
+    4. Delete Service
+    0. Back to Main Menu
+    --------------------------------------------------
+    --------------------------------------------------
+ 
+
+
+    4.Manage Appointments :
+        You can access this via 4 option
+      	Appointments Menu Options:
+    --------------------------------------------------
+              APPOINTMENT MENU
+    --------------------------------------------------
+    1. Add Appointment
+    2. View Appointment
+    3. Update Appointment
+    4. Delete Appointment
+    5. View Appointments Today
+    6. View Appointments Last Week
+    7. View Appointments in Date Range
+    0. Back to Main Menu
+    --------------------------------------------------
+
+
+
+
+    5.Manage BILLING :
+        You can access this via 5 option
+      	BILLING Menu Options:
+   
+    --------------------------------------------------
+                    BILLING MENU
+    --------------------------------------------------
+    1. Add Bill
+    2. View Bill
+    3. Update Bill
+    4. Delete Bill
+    0. Back to Main Menu
+        --------------------------------------------------
+
+
+
+    6.Patient Billing Tracking :
+        You can access this via 1 option
+      	Patient Billing Tracking Menu Options:
+    --------------------------------------------------
+            PATIENT BILLING TRACKING MENU
+    --------------------------------------------------
+    1. Track multiple services used by the patient
+    2. Insert billing for a patient
+    3. Compute total bill (without inserting)
+    4. View complete patient history
+    5. Generate detailed invoice
+    0. Back to Main Menu
+    --------------------------------------------------
+    --------------------------------------------------
+
+
+
+
+     7.Reporting Menu Tracking :
+        You can access this via 7 option
+      	Reporting Menu Tracking Menu Options:
+    --------------------------------------------------
+    --------------------------------------------------
+                REPORTING MENU
+    --------------------------------------------------
+    1. Daily Visits
+    2. Most Consulted Doctors
+    0. Back to Main Menu
+    --------------------------------------------------
+
+
+
+
+     8. EXPORTING CSV Tracking :
+        You can access this via 8 option
+      	 EXPORTING CSV Tracking Menu Options:
+    --------------------------------------------------
+               EXPORTING MENU
+    --------------------------------------------------
+    1. Export billing to CSV
+    2. Export appointments to CSV
+    0. Back to Main Menu
+        --------------------------------------------------
+ 
+ 
+## How to give Input  & Error Handling:
+    -> Enter only numbers when asked to "Choose an option".
+ 
+    -> If an ID is invalid (like a id not found,OR write again), the system will prompt you.
+ 
+    -> Leave fields blank to keep current values during updates.
+ 
+    -> CSV filenames must be typed with extension (e.g., BillingID.csv.)
+ 
+## Exiting the App:
+    Choose option 0 from the main menu to safely exit the system.
